@@ -4,3 +4,5 @@ export const sum = (a: number, b: number) => {
   }
   return a + b;
 };
+
+export const fmap = [1, 2, 3].flatMap(e => e.toString());
